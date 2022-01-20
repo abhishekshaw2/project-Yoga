@@ -1,0 +1,409 @@
+*{
+	box-sizing:border-box;
+	margin:0px;
+}
+.uni-padding{
+	padding:0 10%;
+}
+header{
+	width:100%;
+	height:100px;
+}
+#logo{
+	width:20%;
+	float:left;
+	padding-left:3%;
+}
+nav{
+	width:80%;
+	float:left;
+	overflow:auto;
+}
+nav ul{
+	list-style-type:none;
+}
+nav li {
+	float:left;
+}
+nav li a{
+	text-decoration:none;
+	color:purple;
+	display:block;
+	margin:50px 20px;
+	font-size:18px;
+}
+nav li a:hover{
+	color:black;
+}
+#mob-no{
+	color:white;
+	border:10px solid #FF6347;
+	background-color:#FF6347;
+	border-radius:30px;
+}
+
+/*banner*/
+#banner{
+	width:100%;
+	background-color:#5D3FD3;
+	overflow:auto;
+}
+#banner-text{
+	width:50%;
+	height:700px;
+	float:left;
+	color:white;
+	padding:10% 0% 10% 13%;
+}
+#banner-text h1{
+	padding-bottom:15px;
+	font-family:serif;
+	font-size:70px;
+}
+#banner-text p{
+	line-height:150%;
+	font-size:20px;
+}
+#banner-img{
+	width:50%;
+	height:700px;
+	float:left;
+}
+
+/*services*/
+#services{
+	width:100%;
+	height:300px;
+	text-align:center;
+	padding:4%;
+}
+#services h1{
+	font-size:50px;
+	font-family:serif;
+}
+#services p{
+	font-size:20px;
+	padding:1.5% 15%;
+	line-height:175%;
+}
+
+/*benefits*/
+#benefits{
+	width:100;
+	background-color:lightgrey;
+	overflow:auto;
+}
+#benefits-heading{
+	width:100;
+	text-align:center;
+}
+#benefits-heading h1{
+	font-size:50px;
+	padding-top:4%; 
+}
+#benefits-heading p{
+	padding:1.5% 5%;
+	margin-bottom:5%;	
+	font-size:20px;
+}
+#benefits-img2{
+	width:50%;
+	float:right;
+}
+#reasons{
+	width:50%;
+	float:left;
+}
+
+/*discounts*/
+#discount{
+	width:100%;
+	height:350px;
+	background-color:#5D3FD3;
+	padding-left:18%;
+	padding-top:5%;
+}
+#discount h2{
+	color:white;
+	font-size:40px;
+}
+#discount p{
+	color:white;
+	font-size:20px;
+}
+
+/*about*/
+#about{
+	width:100%;
+	height:600px;
+	overflow:auto;
+}
+#banner-pic3{
+	width:50%;
+	float:left;
+	padding-top:5%;
+}
+#about-details{
+	width:50%;
+	float:right;
+}
+#about-details h2{ 
+	font-size:50px;
+	text-align:center;
+	padding:5% 10% 5% 0%;
+}
+#about-details p{
+	line-height:175%;
+	font-size:20px;
+}
+
+/*meet the trainer */
+#meet{
+	text-align:center;
+	font-size:45px;
+	padding:2.5%;
+	height:200px;
+	background-color:#F5F5F5;
+}
+
+/*gallery*/
+#gallery{
+	text-align:center;
+	width:100%;
+}
+#gallery h2{
+	padding:3%;
+	font-size:35px;
+}
+#gallery img{
+	padding:2%;	
+	box-shadow:2px 2px 5px grey;
+	margin:1%;
+}
+
+
+/*feedback*/
+#feedback{
+	width:100;
+	overflow:auto;
+}
+#feedback h2, h3 {
+	padding:3%;
+	font-size:50px;
+}
+#column1{
+	width:50%;
+	float:left;
+	text-align:right;
+	padding:1%;
+}
+#column1 img{
+	margin:2%;
+	border-radius:3%;
+}
+#column2 img{
+	margin:2%;
+	border-radius:3%;
+}
+#column2{
+	width:50%;
+	float:left;
+	padding:1%;
+}
+#footer{
+	height:200px;
+	width:100%;
+	background-color:blue;
+}
+#footer-logo{
+	width:50%;
+	float:left;
+}
+#icons{
+	width:50%;
+	float:left;
+	padding:5% 0% 0% 35%;
+}
+.fab{
+	background-color:white;
+	border:5px solid white;
+	border-radius:7px;
+	margin:3%;
+}
+#c-right{
+	width:100;
+	clear:both;
+	text-align:center;
+	color:white;
+}
+
+
+/* Responsive banner*/
+@media screen and (max-width:750px){
+#banner-text{
+	width:100%;
+	height:350px;
+	padding-right:5%;
+}
+#banner h1{
+	font-size:50px;
+}
+#banner-img{
+	width:100%;
+}
+}
+@media screen and (max-width:460px){
+#banner-text{
+	height:500px;
+}	
+}
+@media screen and (max-width:325px){
+#banner-text{
+	height:500px;
+}	
+}
+
+
+/* Responsive services*/
+@media screen and (max-width:640px){
+#services{
+	height:400px;
+}	
+}
+@media screen and (max-width:400px){
+#services{
+	height:500px;
+}	
+#services h1{
+	font-size:35px;
+}
+}
+
+
+/* Responsive discount*/
+@media screen and (max-width:440px){
+#discount{
+	height:400px;
+}	
+#discount h2{
+	font-size:35px;
+}
+}
+
+
+/* Responsive about*/
+@media screen and (max-width:1414px){
+#about-details p{
+	line-height:150%;
+	font-size:15px;
+}
+}
+@media screen and (max-width:850px){
+#about{
+	height:1000px;
+}
+#banner-pic3{
+	width:100%;
+}
+#about-details{
+	width:100%;
+}
+}
+@media screen and (max-width:600px){
+#about{
+	height:1100px;
+}
+}
+@media screen and (max-width:440px){
+#about{
+	height:1070px;
+}
+#about-details h2{
+	font-size:40px;
+}
+}
+@media screen and (max-width:350px){
+#about{
+	height:1220px;
+}
+}
+
+/* Responsive meet*/
+@media screen and (max-width:425px){
+#meet{
+	font-size:35px;
+	padding-top:10%;
+}
+}
+
+
+/* Responsive gallery*/
+@media screen and (max-width:1024px){
+#gallery img{
+	width:33.33%;
+}
+}
+@media screen and (max-width:500px){
+#gallery img{
+	width:50%;
+	width:80%;
+}
+}
+
+
+/* Responsive feedback*/
+@media screen and (max-width:768px){
+#column1{
+	width:100%;
+	text-align:center;
+}
+#column1 img{
+	margin:2%;
+	border-radius:3%;
+	height:100%;
+	width:100%;
+}
+#column2 img{
+	margin:2%;
+	border-radius:3%;
+	height:100%;
+	width:100%;
+}
+#column2{
+	width:100%;
+	text-align:center;
+}
+#feedback h2, h3 {
+	font-size:30px;
+}
+}
+
+
+/* Responsive footer*/
+@media screen and (max-width:768px){
+#footer{
+	height:300px;
+	width:100%;
+	background-color:blue;
+}
+#footer-logo{
+	width:100%;
+	text-align:center;
+}
+#icons{
+	width:100%;
+	text-align:centerz;
+}
+.fab{
+	background-color:white;
+	border:5px solid white;
+	border-radius:7px;
+	margin-left:13%;
+}
+
+#c-right{
+	width:100;
+	text-align:center;
+	color:white;
+}
+}
